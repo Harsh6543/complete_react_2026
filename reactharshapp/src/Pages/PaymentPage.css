@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Full screen dark premium background */
+.payment-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle at top,
+    #1f2933,
+    #0f172a,
+    #020617
+  );
+  overflow: hidden;
+}
+
+/* Glassmorphism card */
+.payment-card {
+  width: 340px;
+  padding: 28px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  animation: fadeUp 0.6s ease;
+}
+
+/* Title */
+.payment-card h2 {
+  color: #ffffff;
+  margin-bottom: 6px;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+}
+
+/* Amount text */
+.payment-card p {
+  color: #cbd5e1;
+  margin-bottom: 18px;
+  font-size: 14px;
+  animation: fadeUp 0.6s ease;
+}
+
+/* Input */
+.upi-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+}
+
+/* Button */
+.pay-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pay-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+}
+
+/* Note */
+.note {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
