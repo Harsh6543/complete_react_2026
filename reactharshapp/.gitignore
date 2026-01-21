@@ -24,4 +24,4 @@ yarn-error.log*
 
 # Custom ignored files
 src/Parent/Child/Resturant.js
-src/Parent/Child/Resturant.css
+src/Parent/Child/Resturant.css 
