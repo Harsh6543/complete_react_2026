@@ -1,0 +1,136 @@
+*{
+    box-sizing: content-box/border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 12px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.main-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+/*top-num*/
+.num-menu{
+    width: 92%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px 5px 0;
+    margin: 5px 4%;
+    font-size: 14px;
+}
+.num-menu h3{
+    margin: 0;
+    font-size: 16px;
+}
+p{
+    width: 21px;
+    border: 1.5px solid #d1d5db; /* light grey */
+    color: #374151; 
+    border-radius: 11px;
+    padding: 0 5px;
+}
+h3{
+    color: #2e7d32;
+}
+
+
+
+/* Header-img */
+h1{
+    margin:0 12px;
+    color: #1F2937;
+}
+img{
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: #F9FAFB;
+    width: 92%;
+    min-height: 350px;
+    margin: 10px 4%;
+}
+
+
+
+/* Read More/Less */
+.paybtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    min-height: 80px;
+}
+.paybtn > h4{
+    font-weight: 600;
+    margin-left: 5px;
+}
+.paybtn > .readbtn{
+    display: flex;
+    justify-self: flex-end;
+    border: 0;
+    background-color: white;
+    margin:5px;
+}
+.paybtn > .description{
+    color: #6B7280;
+}
+.readbtn{
+    color: #2563EB;
+    cursor: pointer;
+}
+
+
+
+/*Add-Order*/
+.btndiv{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    border: 0px solid black;
+    margin-top: auto; 
+}
+.addbtn{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    margin: 0px;
+    padding: 10px;
+}
+.addbtn:hover{
+    background-color: #EFF6FF;
+    cursor: pointer;
+}
+.orderbtn{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #2563EB;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+}
+.orderbtn:hover{
+    background-color: #1D4ED8;
+    cursor: pointer;
+}

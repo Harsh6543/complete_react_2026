@@ -2,12 +2,12 @@
 import './Resturant.css';
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import images from "../../assets/images";
+import images from "../../assets/images"; 
 
 
 const Resturant = () => {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
 
 
   /*Breakfast*/

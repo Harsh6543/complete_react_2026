@@ -8,7 +8,7 @@ const PaymentPage = () => {
   const price = location.state?.price||0;
 
   const [upi, setUpi] = useState("")
-
+ 
   const handlePay = () => {
     if (!upi.includes("@")) {
       alert("Enter a valid UPI ID");
