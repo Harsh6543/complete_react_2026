@@ -6,7 +6,7 @@
 .pnp.js
 
 # testing
-/coverage
+/coverage 
 
 # production
 /build
@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Custom ignored files
+src/Parent/Child/Resturant.js
+src/Parent/Child/Resturant.css
