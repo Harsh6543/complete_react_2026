@@ -1,12 +1,16 @@
 *{
-    box-sizing: content-box/border-box;
+    box-sizing: content-box/border-box; 
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #eef2f6;
+    min-height: 100vh;
 }
 
 .card-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
     gap: 12px;
     padding: 12px;
 }
@@ -15,9 +19,9 @@
     flex-direction: column;
     min-height: 350px;
     background-color: #FFFFFF;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 50px;
+    border: none;
+    border-radius: 12px;
+    margin: 20px;
     transition: transform 0.3s ease , box-shadow 0.3s ease;
 }
 .main-container:hover{
@@ -133,4 +137,32 @@ img{
 .orderbtn:hover{
     background-color: #1D4ED8;
     cursor: pointer;
+}
+
+
+
+
+/*All Buttons Group*/
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    border: 2px solid #ff8c00;
+    background: transparent;
+    color: #ff8c00;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-group button:hover {
+    background: #ff8c00;
+    color: white;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
 }
