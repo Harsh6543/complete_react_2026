@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/complete_react_2026/static/css/main.f351478c.css",
+    "main.js": "/complete_react_2026/static/js/main.1ec3b242.js",
+    "static/js/453.92b1e466.chunk.js": "/complete_react_2026/static/js/453.92b1e466.chunk.js",
+    "static/media/Baingan Bharta.png": "/complete_react_2026/static/media/Baingan Bharta.3341695683292b06d475.png",
+    "static/media/Mix Veg Curry.png": "/complete_react_2026/static/media/Mix Veg Curry.bacedc0d898df23d1572.png",
+    "static/media/Malai Kofta.png": "/complete_react_2026/static/media/Malai Kofta.664ea3333b85e5b6b90c.png",
+    "static/media/Light Sandwich.png": "/complete_react_2026/static/media/Light Sandwich.66bfbce22a0f60b0722c.png",
+    "static/media/Palak Paneer.png": "/complete_react_2026/static/media/Palak Paneer.a37e0e8f2ac26433c1a8.png",
+    "static/media/Shahi Paneer.png": "/complete_react_2026/static/media/Shahi Paneer.cb94baf3d8bf955098cb.png",
+    "static/media/Dal Makhni.png": "/complete_react_2026/static/media/Dal Makhni.96639518c528cba10526.png",
+    "static/media/Pancakes.png": "/complete_react_2026/static/media/Pancakes.b25f161c75e32bc01f71.png",
+    "static/media/Bread Butter.png": "/complete_react_2026/static/media/Bread Butter.fd4d2eac89883c8359f8.png",
+    "index.html": "/complete_react_2026/index.html",
+    "main.f351478c.css.map": "/complete_react_2026/static/css/main.f351478c.css.map",
+    "main.1ec3b242.js.map": "/complete_react_2026/static/js/main.1ec3b242.js.map",
+    "453.92b1e466.chunk.js.map": "/complete_react_2026/static/js/453.92b1e466.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f351478c.css",
+    "static/js/main.1ec3b242.js"
+  ]
+}
